@@ -1,0 +1,30 @@
+{
+  "name": "http-server-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakitoritrash/http-server-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yakitoritrash/http-server-ts/issues"
+  },
+  "homepage": "https://github.com/yakitoritrash/http-server-ts#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js"
+  }
+}
